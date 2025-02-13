@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4450728986600525373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3233960264779097642}
+  - component: {fileID: 7199343624867329156}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3233960264779097642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4450728986600525373}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 311.61823, y: 0.5029428, z: 279.23123}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7199343624867329156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4450728986600525373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4fec1b71714b24aa23d890ff4f5faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Menu Music
+    clip: {fileID: 8300000, guid: 47a9ed8eab775274bbb03223554b099d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    isMusic: 1
+  - name: Button Click
+    clip: {fileID: 8300000, guid: 952ec11f6644bcd4c946aaa840370b63, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: vespaArriving
+    clip: {fileID: 8300000, guid: dc101c966d7669d49b80577bc46c3b1e, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: vespaDrivingAway
+    clip: {fileID: 8300000, guid: 5a266ab9b6f65f544b7a97e3ad789d16, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: Pick Casette
+    clip: {fileID: 8300000, guid: 202858459e05d864fb1ae1f8ac40b5df, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: Play Video
+    clip: {fileID: 8300000, guid: 982ab383e2f83e744b1b8c0badf841ad, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: Open Notes
+    clip: {fileID: 8300000, guid: 3b46084127b913e47a278458a8174df7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: Select Option
+    clip: {fileID: 8300000, guid: 4132aa76b569a8949ae7b9b94c6c7fcc, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: Outdoor Sound
+    clip: {fileID: 8300000, guid: 93036060b8da17e43972643cd7639b62, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    isMusic: 0
+  - name: Indoor Sound
+    clip: {fileID: 8300000, guid: 8ea4bb6f475bd9e489e94850dd469664, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    isMusic: 0
+  - name: TypeWriter-Sound
+    clip: {fileID: 8300000, guid: 52a2dc4697c1f764bb293bdb3be5b11c, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    isMusic: 0
+  - name: HouseCreaking-1
+    clip: {fileID: 8300000, guid: 57f5f50bd85977e4781ab19821a773ac, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: HouseCreaking-2
+    clip: {fileID: 8300000, guid: a71587f52f184424d8f66c6e3ae80922, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: HouseCreaking-3
+    clip: {fileID: 8300000, guid: a230153c805786d419fa8821b854a0d1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: Dad Hanging
+    clip: {fileID: 8300000, guid: b8eb43e46c705734ab8a8fe33c0f5c45, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: Door-Open
+    clip: {fileID: 8300000, guid: a9a3cc00f1e89c84eb9863070e63026d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: Door-Close
+    clip: {fileID: 8300000, guid: 6339b340e4a0bd44cb4b84ed5ce91b6c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - name: Torch On/Off
+    clip: {fileID: 8300000, guid: 2dab25ab54529bf439dd07f09f491a1a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
